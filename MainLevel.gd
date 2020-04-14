@@ -12,6 +12,7 @@ func _ready():
 	total = get_tree().get_nodes_in_group("Eggs").size();
 	eggsCollected = 0
 	$"Player/Camera2D/Game UI/Score".text = "0 / " + str(total)
+	
 
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.

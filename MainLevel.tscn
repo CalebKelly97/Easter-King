@@ -516,10 +516,3 @@ position = Vector2( 215.657, 274.232 )
 
 [node name="Egg7" parent="Eggs" instance=ExtResource( 3 )]
 position = Vector2( 168.657, 274.232 )
-[connection signal="Count" from="Eggs/Egg" to="." method="_on_Egg_Count"]
-[connection signal="Count" from="Eggs/Egg2" to="." method="_on_Egg_Count"]
-[connection signal="Count" from="Eggs/Egg3" to="." method="_on_Egg_Count"]
-[connection signal="Count" from="Eggs/Egg4" to="." method="_on_Egg_Count"]
-[connection signal="Count" from="Eggs/Egg5" to="." method="_on_Egg_Count"]
-[connection signal="Count" from="Eggs/Egg6" to="." method="_on_Egg_Count"]
-[connection signal="Count" from="Eggs/Egg7" to="." method="_on_Egg_Count"]
