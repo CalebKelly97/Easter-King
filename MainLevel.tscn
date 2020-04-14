@@ -497,200 +497,29 @@ __meta__ = {
 [node name="Eggs" type="Node2D" parent="."]
 
 [node name="Egg" parent="Eggs" instance=ExtResource( 3 )]
-position = Vector2( 658.657, -309.768 )
+position = Vector2( 216.657, 205.232 )
 
 [node name="Egg2" parent="Eggs" instance=ExtResource( 3 )]
-position = Vector2( 700.986, -309.768 )
+position = Vector2( 249.657, 206.232 )
 
 [node name="Egg3" parent="Eggs" instance=ExtResource( 3 )]
-position = Vector2( 745.239, -311.692 )
+position = Vector2( 286.657, 206.232 )
 
 [node name="Egg4" parent="Eggs" instance=ExtResource( 3 )]
-position = Vector2( 778.588, -312.333 )
+position = Vector2( 307.657, 274.232 )
 
 [node name="Egg5" parent="Eggs" instance=ExtResource( 3 )]
-position = Vector2( 679.822, -339.911 )
+position = Vector2( 259.657, 275.232 )
 
 [node name="Egg6" parent="Eggs" instance=ExtResource( 3 )]
-position = Vector2( 725.357, -341.194 )
+position = Vector2( 215.657, 274.232 )
 
 [node name="Egg7" parent="Eggs" instance=ExtResource( 3 )]
-position = Vector2( 767.044, -341.835 )
-
-[node name="Egg8" parent="Eggs" instance=ExtResource( 3 )]
-position = Vector2( 748.445, -371.337 )
-
-[node name="Egg9" parent="Eggs" instance=ExtResource( 3 )]
-position = Vector2( 704.834, -370.054 )
-
-[node name="Egg10" parent="Eggs" instance=ExtResource( 3 )]
-position = Vector2( 725.998, -402.762 )
-
-[node name="Egg11" parent="Eggs" instance=ExtResource( 3 )]
-position = Vector2( 590.675, -311.692 )
-
-[node name="Egg12" parent="Eggs" instance=ExtResource( 3 )]
-position = Vector2( 559.891, -343.759 )
-
-[node name="Egg13" parent="Eggs" instance=ExtResource( 3 )]
-position = Vector2( 527.824, -364.923 )
-
-[node name="Egg14" parent="Eggs" instance=ExtResource( 3 )]
-position = Vector2( 486.778, -339.911 )
-
-[node name="Egg15" parent="Eggs" instance=ExtResource( 3 )]
-position = Vector2( 461.766, -307.844 )
-
-[node name="Egg16" parent="Eggs" instance=ExtResource( 3 )]
-position = Vector2( 461.766, -307.844 )
-
-[node name="Egg17" parent="Eggs" instance=ExtResource( 3 )]
-position = Vector2( 123.779, 268.722 )
-
-[node name="Egg18" parent="Eggs" instance=ExtResource( 3 )]
-position = Vector2( 159.627, 267.803 )
-
-[node name="Egg19" parent="Eggs" instance=ExtResource( 3 )]
-position = Vector2( 198.784, 272.95 )
-
-[node name="Egg20" parent="Eggs" instance=ExtResource( 3 )]
-position = Vector2( 242.17, 271.847 )
-
-[node name="Egg21" parent="Eggs" instance=ExtResource( 3 )]
-position = Vector2( 282.062, 270.744 )
-
-[node name="Egg22" parent="Eggs" instance=ExtResource( 3 )]
-position = Vector2( 308.167, 272.399 )
-
-[node name="Egg23" parent="Eggs" instance=ExtResource( 3 )]
-position = Vector2( 339.971, 273.134 )
-
-[node name="Egg24" parent="Eggs" instance=ExtResource( 3 )]
-position = Vector2( 340.89, 303.835 )
-
-[node name="Egg25" parent="Eggs" instance=ExtResource( 3 )]
-position = Vector2( 340.522, 336.374 )
-
-[node name="Egg26" parent="Eggs" instance=ExtResource( 3 )]
-position = Vector2( 306.329, 339.499 )
-
-[node name="Egg27" parent="Eggs" instance=ExtResource( 3 )]
-position = Vector2( 274.709, 338.58 )
-
-[node name="Egg28" parent="Eggs" instance=ExtResource( 3 )]
-position = Vector2( 246.214, 336.742 )
-
-[node name="Egg29" parent="Eggs" instance=ExtResource( 3 )]
-position = Vector2( 202.461, 338.58 )
-
-[node name="Egg30" parent="Eggs" instance=ExtResource( 3 )]
-position = Vector2( 160.546, 340.234 )
-
-[node name="Egg31" parent="Eggs" instance=ExtResource( 3 )]
-position = Vector2( 123.411, 340.602 )
-
-[node name="Egg32" parent="Eggs" instance=ExtResource( 3 )]
-position = Vector2( 80.5772, 336.006 )
-
-[node name="Egg33" parent="Eggs" instance=ExtResource( 3 )]
-position = Vector2( 46.7512, 337.661 )
-
-[node name="Egg34" parent="Eggs" instance=ExtResource( 3 )]
-position = Vector2( 46.7512, 337.661 )
-
-[node name="Egg35" parent="Eggs" instance=ExtResource( 3 )]
-position = Vector2( 111.775, 141.605 )
-
-[node name="Egg36" parent="Eggs" instance=ExtResource( 3 )]
-position = Vector2( 141.331, 140.127 )
-
-[node name="Egg37" parent="Eggs" instance=ExtResource( 3 )]
-position = Vector2( 211.773, 208.106 )
-
-[node name="Egg38" parent="Eggs" instance=ExtResource( 3 )]
-position = Vector2( 254.137, 206.136 )
-
-[node name="Egg39" parent="Eggs" instance=ExtResource( 3 )]
-position = Vector2( 304.875, 208.106 )
-
-[node name="Egg40" parent="Eggs" instance=ExtResource( 3 )]
-position = Vector2( 236.896, 77.5668 )
-
-[node name="Egg41" parent="Eggs" instance=ExtResource( 3 )]
-position = Vector2( 210.295, 75.1038 )
-
-[node name="Egg42" parent="Eggs" instance=ExtResource( 3 )]
-position = Vector2( 210.295, 50.4736 )
-
-[node name="Egg43" parent="Eggs" instance=ExtResource( 3 )]
-position = Vector2( 236.403, 47.518 )
-
-[node name="Egg44" parent="Eggs" instance=ExtResource( 3 )]
-position = Vector2( 71.3813, 76.089 )
-
-[node name="Egg45" parent="Eggs" instance=ExtResource( 3 )]
-position = Vector2( 46.7512, 76.089 )
-
-[node name="Egg46" parent="Eggs" instance=ExtResource( 3 )]
-position = Vector2( 112.267, 12.5433 )
-
-[node name="Egg47" parent="Eggs" instance=ExtResource( 3 )]
-position = Vector2( 154.139, -17.0129 )
-
-[node name="Egg48" parent="Eggs" instance=ExtResource( 3 )]
-position = Vector2( 201.921, -20.9537 )
-
-[node name="Egg49" parent="Eggs" instance=ExtResource( 3 )]
-position = Vector2( 242.807, -19.4759 )
-
-[node name="Egg50" parent="Eggs" instance=ExtResource( 3 )]
-position = Vector2( 272.856, -20.9537 )
-
-[node name="Egg51" parent="Eggs" instance=ExtResource( 3 )]
-position = Vector2( 298.964, -17.0129 )
-
-[node name="Egg52" parent="Eggs" instance=ExtResource( 3 )]
-position = Vector2( 330.983, -18.4907 )
-
-[node name="Egg53" parent="Eggs" instance=ExtResource( 3 )]
-position = Vector2( 364.48, -17.5055 )
-
-[node name="Egg54" parent="Eggs" instance=ExtResource( 3 )]
-position = Vector2( 397.484, -19.9685 )
-
-[node name="Egg55" parent="Eggs" instance=ExtResource( 3 )]
-position = Vector2( 430.981, -17.0129 )
-
-[node name="Egg56" parent="Eggs" instance=ExtResource( 3 )]
-position = Vector2( 464.478, -17.5055 )
-
-[node name="Egg57" parent="Eggs" instance=ExtResource( 3 )]
-position = Vector2( 494.527, 44.0698 )
-
-[node name="Egg58" parent="Eggs" instance=ExtResource( 3 )]
-position = Vector2( 462.015, 44.0698 )
-
-[node name="Egg59" parent="Eggs" instance=ExtResource( 3 )]
-position = Vector2( 433.444, 46.5328 )
-
-[node name="Egg60" parent="Eggs" instance=ExtResource( 3 )]
-position = Vector2( 396.992, 49.4884 )
-
-[node name="Egg61" parent="Eggs" instance=ExtResource( 3 )]
-position = Vector2( 363.987, 49.981 )
-
-[node name="Egg62" parent="Eggs" instance=ExtResource( 3 )]
-position = Vector2( 327.535, 48.9958 )
-
-[node name="Egg63" parent="Eggs" instance=ExtResource( 3 )]
-position = Vector2( 303.89, 48.5033 )
-
-[node name="Egg64" parent="Eggs" instance=ExtResource( 3 )]
-position = Vector2( 301.919, 76.5816 )
-
-[node name="Egg65" parent="Eggs" instance=ExtResource( 3 )]
-position = Vector2( 331.968, 76.5816 )
-
-[node name="Egg66" parent="Eggs" instance=ExtResource( 3 )]
-position = Vector2( 331.968, 76.5816 )
+position = Vector2( 168.657, 274.232 )
 [connection signal="Count" from="Eggs/Egg" to="." method="_on_Egg_Count"]
+[connection signal="Count" from="Eggs/Egg2" to="." method="_on_Egg_Count"]
+[connection signal="Count" from="Eggs/Egg3" to="." method="_on_Egg_Count"]
+[connection signal="Count" from="Eggs/Egg4" to="." method="_on_Egg_Count"]
+[connection signal="Count" from="Eggs/Egg5" to="." method="_on_Egg_Count"]
+[connection signal="Count" from="Eggs/Egg6" to="." method="_on_Egg_Count"]
+[connection signal="Count" from="Eggs/Egg7" to="." method="_on_Egg_Count"]
