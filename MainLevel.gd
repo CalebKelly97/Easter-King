@@ -13,6 +13,8 @@ func _ready():
 	eggsCollected = 0
 	$"Player/Camera2D/Game UI/Score".text = "0 / " + str(total)
 	
+# I AM THE COOLOEST
+	
 
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
