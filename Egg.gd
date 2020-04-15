@@ -5,13 +5,12 @@ signal Count
 # var a = 2
 # var b = "text"
 var Level
-
+var rand
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
-	Level = get_node("res://MainLevel.tscn")
-	self.connect("Count", Level, "on_Egg_Count")
-
+	rand = rand_range(1, 4)
+	$Sprite.frame = floor(rand)
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 #func _process(delta):
 #	pass

@@ -11,19 +11,31 @@ var eggsCollected
 func _ready():
 	total = get_tree().get_nodes_in_group("Eggs").size();
 	eggsCollected = 0
-	$"Player/Camera2D/Game UI/Score".text = "0 / " + str(total)
+	$CanvasLayer/Score.text = "0 / " + str(total)
 	
 # I AM THE COOLOEST
 	
 
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
-#func _process(delta):
-#	pass
+func _process(delta):
+	$CanvasLayer/Timer.text = str(floor($GameTimer.time_left))
+	if eggsCollected == total:
+		get_tree().change_scene("res://MainMenu.tscn")
 
 
 func _on_Egg_Count():
 	print("count")
 	eggsCollected += 1
-	$"Player/Camera2D/Game UI/Score".text = str(eggsCollected) + " / " + str(total)
+	$CanvasLayer/Score.text = str(eggsCollected) + " / " + str(total)
 	pass # Replace with function body.
+
+
+func _on_GameTimer_timeout():
+#	$Player/AnimatedSprite.play("Teleport")
+	$TeleportTimer.start()
+	
+
+
+func _on_TeleportTimer_timeout():
+	get_tree().change_scene("res://MainMenu.tscn")
