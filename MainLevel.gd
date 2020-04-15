@@ -2,6 +2,7 @@ extends Node2D
 
 var total
 var eggsCollected
+var totalCollected = false
 # Declare member variables here. Examples:
 # var a = 2
 # var b = "text"
@@ -20,9 +21,13 @@ func _ready():
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta):
 	$CanvasLayer/Timer.text = str(floor($GameTimer.time_left))
-	if eggsCollected == total:
-		get_tree().change_scene("res://MainMenu.tscn")
+	if eggsCollected == total && totalCollected == false:
+		totalCollected = true
+		teleport()
 
+func teleport():
+	$Player/AnimatedSprite.play("Teleport")
+	$TeleportTimer.start()
 
 func _on_Egg_Count():
 	print("count")
@@ -32,10 +37,8 @@ func _on_Egg_Count():
 
 
 func _on_GameTimer_timeout():
-#	$Player/AnimatedSprite.play("Teleport")
+	$Player/AnimatedSprite.play("Teleport")
 	$TeleportTimer.start()
-	
-
 
 func _on_TeleportTimer_timeout():
 	get_tree().change_scene("res://MainMenu.tscn")

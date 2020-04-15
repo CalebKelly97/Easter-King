@@ -509,21 +509,6 @@ position = Vector2( 240, 56 )
 [node name="Egg15" parent="Eggs" instance=ExtResource( 3 )]
 position = Vector2( 208, 56 )
 
-[node name="Egg16" parent="Eggs" instance=ExtResource( 3 )]
-position = Vector2( 304, 56 )
-
-[node name="Egg17" parent="Eggs" instance=ExtResource( 3 )]
-position = Vector2( 328, 56 )
-
-[node name="Egg18" parent="Eggs" instance=ExtResource( 3 )]
-position = Vector2( 328, 80 )
-
-[node name="Egg19" parent="Eggs" instance=ExtResource( 3 )]
-position = Vector2( 304, 80 )
-
-[node name="Egg20" parent="Eggs" instance=ExtResource( 3 )]
-position = Vector2( 304, 80 )
-
 [node name="Egg5" parent="Eggs" instance=ExtResource( 3 )]
 position = Vector2( 255.744, 270.076 )
 
@@ -539,7 +524,7 @@ one_shot = true
 autostart = true
 
 [node name="TeleportTimer" type="Timer" parent="."]
-wait_time = 3.0
+wait_time = 1.6
 
 [node name="CanvasLayer" type="CanvasLayer" parent="."]
 
@@ -589,11 +574,6 @@ __meta__ = {
 [connection signal="Count" from="Eggs/Egg12" to="." method="_on_Egg_Count"]
 [connection signal="Count" from="Eggs/Egg13" to="." method="_on_Egg_Count"]
 [connection signal="Count" from="Eggs/Egg15" to="." method="_on_Egg_Count"]
-[connection signal="Count" from="Eggs/Egg16" to="." method="_on_Egg_Count"]
-[connection signal="Count" from="Eggs/Egg17" to="." method="_on_Egg_Count"]
-[connection signal="Count" from="Eggs/Egg18" to="." method="_on_Egg_Count"]
-[connection signal="Count" from="Eggs/Egg19" to="." method="_on_Egg_Count"]
-[connection signal="Count" from="Eggs/Egg20" to="." method="_on_Egg_Count"]
 [connection signal="Count" from="Eggs/Egg5" to="." method="_on_Egg_Count"]
 [connection signal="Count" from="Eggs/Egg6" to="." method="_on_Egg_Count"]
 [connection signal="Count" from="Eggs/Egg7" to="." method="_on_Egg_Count"]
