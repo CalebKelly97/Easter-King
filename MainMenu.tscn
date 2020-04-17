@@ -1,4 +1,4 @@
-[gd_scene load_steps=16 format=2]
+[gd_scene load_steps=17 format=2]
 
 [ext_resource path="res://Font/Lato/Lato-Regular.ttf" type="DynamicFontData" id=1]
 [ext_resource path="res://Sprites/PLayer/Background.png" type="Texture" id=2]
@@ -11,6 +11,7 @@
 [ext_resource path="res://Sprites/PLayer/easter_king_teleport6.png" type="Texture" id=9]
 [ext_resource path="res://Sprites/PLayer/easter_king_teleport1.png" type="Texture" id=10]
 [ext_resource path="res://Sprites/PLayer/easter_king_teleport4.png" type="Texture" id=11]
+[ext_resource path="res://Music/Easter King PlayTheme EDIT.wav" type="AudioStream" id=12]
 
 [sub_resource type="DynamicFont" id=1]
 size = 25
@@ -84,6 +85,7 @@ flip_h = true
 wait_time = 1.4
 
 [node name="BackgroundMusic" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource( 12 )
 [connection signal="pressed" from="CanvasLayer/StartButton" to="." method="_on_StartButton_pressed"]
 [connection signal="timeout" from="TeleportTimer" to="." method="_on_TeleportTimer_timeout"]
 [connection signal="finished" from="BackgroundMusic" to="." method="_on_BackgroundMusic_finished"]
