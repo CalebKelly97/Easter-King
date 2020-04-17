@@ -12,7 +12,7 @@ var totalCollected = false
 func _ready():
 	total = get_tree().get_nodes_in_group("Eggs").size();
 	eggsCollected = 0
-	$CanvasLayer/Score.text = "0 / " + str(total)
+	$CanvasLayer/Score.text = "0"
 	
 # I AM THE COOLOEST
 	
@@ -32,7 +32,7 @@ func teleport():
 func _on_Egg_Count():
 	print("count")
 	eggsCollected += 1
-	$CanvasLayer/Score.text = str(eggsCollected) + " / " + str(total)
+	$CanvasLayer/Score.text = str(eggsCollected)
 	pass # Replace with function body.
 
 
@@ -42,3 +42,11 @@ func _on_GameTimer_timeout():
 
 func _on_TeleportTimer_timeout():
 	get_tree().change_scene("res://MainMenu.tscn")
+
+
+func _on_AudioStreamPlayer2D_finished():
+	pass # Replace with function body.
+
+
+func _on_BackgroundMusic_finished():
+	$Player/BackgroundMusic.play()

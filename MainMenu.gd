@@ -24,3 +24,7 @@ func _on_StartButton_pressed():
 func _on_TeleportTimer_timeout():
 	get_tree().change_scene("res://MainLevel.tscn")
 	
+
+
+func _on_BackgroundMusic_finished():
+	$BackgroundMusic.play()
