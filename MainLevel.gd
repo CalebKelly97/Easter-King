@@ -42,11 +42,3 @@ func _on_GameTimer_timeout():
 
 func _on_TeleportTimer_timeout():
 	get_tree().change_scene("res://MainMenu.tscn")
-
-
-func _on_AudioStreamPlayer2D_finished():
-	pass # Replace with function body.
-
-
-func _on_BackgroundMusic_finished():
-	$Player/BackgroundMusic.play()
