@@ -19,6 +19,11 @@ config/name="EasterKing"
 run/main_scene="res://MainMenu.tscn"
 config/icon="res://icon.png"
 
+[autoload]
+
+Global="*res://Singleton/Global.gd"
+Score="*res://Singleton/Score.gd"
+
 [display]
 
 window/size/width=600
