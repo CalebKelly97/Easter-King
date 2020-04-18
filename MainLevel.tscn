@@ -1130,7 +1130,7 @@ position = Vector2( 217.561, 273.916 )
 position = Vector2( 168, 272 )
 
 [node name="GameTimer" type="Timer" parent="."]
-wait_time = 10.0
+wait_time = 180.0
 one_shot = true
 autostart = true
 
