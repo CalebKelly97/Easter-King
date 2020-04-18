@@ -12,11 +12,9 @@ var totalCollected = false
 func _ready():
 	total = get_tree().get_nodes_in_group("Eggs").size();
 	eggsCollected = 0
+	Score.current_score = 0
 	$CanvasLayer/Score.text = "0"
 	
-# I AM THE COOLOEST
-	
-
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta):
@@ -30,13 +28,12 @@ func teleport():
 	$TeleportTimer.start()
 
 func _on_Egg_Count():
-	print("count")
 	eggsCollected += 1
 	$CanvasLayer/Score.text = str(eggsCollected)
-	pass # Replace with function body.
-
+	Score.set_score(eggsCollected)
 
 func _on_GameTimer_timeout():
+	Score.set_total_score(eggsCollected)
 	$Player/AnimatedSprite.play("Teleport")
 	$TeleportTimer.start()
 

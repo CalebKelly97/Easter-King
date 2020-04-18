@@ -5,11 +5,10 @@ extends Node2D
 # var a = 2
 # var b = "text"
 
-
 # Called when the node enters the scene tree for the first time.
 func _ready():
-	pass # Replace with function body.
-
+	$CanvasLayer/Highscore.text = "Highscore: " + str(Score.highscore)
+	$CanvasLayer/TotalEggs.text = "Total Eggs Collected: " + str(Score.total_score)
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta):
@@ -24,7 +23,5 @@ func _on_StartButton_pressed():
 func _on_TeleportTimer_timeout():
 	get_tree().change_scene("res://MainLevel.tscn")
 	
-
-
 func _on_BackgroundMusic_finished():
 	$BackgroundMusic.play()
